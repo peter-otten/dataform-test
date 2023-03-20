@@ -13,4 +13,5 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-SELECT 2 as test
+SELECT * from `pk-datalake-powerkraut`.`billing`.`ticks`
+ WHERE DATE(created_at) >= "2023-03-20"
