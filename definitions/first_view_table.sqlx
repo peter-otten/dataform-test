@@ -7,7 +7,7 @@
 config {
   type: "table", // Creates a view in BigQuery. Try changing to "table" instead.
   columns: {
-    test: "A description for the test23 column", // Column descriptions are pushed to BigQuery.
+    test: "A description for the tes3 column", // Column descriptions are pushed to BigQuery.
   }
 }
 
@@ -15,3 +15,5 @@ config {
 
 SELECT * from `pk-datalake-powerkraut`.`billing`.`ticks`
  WHERE DATE(created_at) >= "2023-03-20"
+
+-- TEST
