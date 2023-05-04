@@ -1,0 +1,9 @@
+config {
+  type: "table", // Creates a view in BigQuery. Try changing to "table" instead.
+  columns: {
+    test: "test" // Column descriptions are pushed to BigQuery.
+  }
+}
+
+select 1
+as TEST
